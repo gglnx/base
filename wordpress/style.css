@@ -1,0 +1,47 @@
+/** 
+ * Theme Name: 
+ * Theme URI: 
+ * Version: 
+ * Author: 
+ * Author URI: 
+ */
+ 
+/**
+ * Reset CSS
+ * @see https://github.com/murtaugh/HTML5-Reset/blob/master/_/css/style.css
+ */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+article, aside, figure, footer, header, hgroup, nav, section { display:block; }
+img, object, embed { max-width:100%; }
+ul { list-style:none; }
+del { text-decoration:line-through; }
+abbr[title], dfn[title] { border-bottom:1px dotted #666; cursor:help; }
+a, a:link, a:active, a:visited, a:focus, a:hover { text-decoration:none; }
+
+/**
+ * Box Sizing
+ */
+* { -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+
+/**
+ * Clear fix
+ * @see http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.clear { float:none; clear:both; }
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
+
+/**
+ * Align styles
+ */
+.alignleft { float:left; }
+.alignright { float:right; }
+
+/**
+ * Selection style
+ */
+::selection { background:#000; color:#fff; }
+::-webkit-selection { background:#000; color:#fff; }
+::-moz-selection { background:#000; color:#fff; }
+
